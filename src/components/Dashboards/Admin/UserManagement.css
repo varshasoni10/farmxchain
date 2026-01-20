@@ -1,0 +1,19 @@
+.user-table-container { background: #fff; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); overflow-x: auto; }
+.user-table { width: 100%; border-collapse: collapse; }
+.user-table th, .user-table td { padding: 1rem; text-align: left; border-bottom: 1px solid #eee; }
+.user-table th { background: #f8f9fa; font-weight: 600; }
+.user-info { display: flex; flex-direction: column; }
+.user-info span { font-size: 0.85rem; color: #666; }
+.role-badge { padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem; font-weight: bold; text-transform: capitalize; }
+.role-farmer { background-color: #e8f5e9; color: #2e7d32; }
+.role-dealer { background-color: #e3f2fd; color: #1976d2; }
+.role-retailer { background-color: #fff8e1; color: #f57c00; }
+.role-customer { background-color: #f3e5f5; color: #7b1fa2; }
+.status-badge { font-weight: bold; padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem; }
+.status-badge.status-active { background-color: #e8f5e9; color: #2e7d32; }
+.status-badge.status-suspended { background-color: #ffebee; color: #c62828; }
+.status-badge.status-pending-approval { background-color: #fff3e0; color: #f57c00; }
+.action-buttons button { border: none; padding: 8px 12px; border-radius: 5px; cursor: pointer; color: white; font-weight: 500;}
+.btn-approve { background-color: #28a745; }
+.btn-suspend { background-color: #dc3545; }
+.btn-activate { background-color: #17a2b8; }

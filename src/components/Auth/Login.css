@@ -1,0 +1,117 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f4f8;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-box {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+}
+
+.login-box h2 {
+  color: #2E7D32; /* Farmer green for brand color */
+  margin-bottom: 10px;
+}
+
+.login-subtitle {
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  font-weight: 600;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+.input-group input:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+.login-button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover {
+  background-color: #45a049;
+}
+
+.error-message {
+  color: #d32f2f;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.register-link {
+  margin-top: 20px;
+  color: #555;
+}
+
+.register-link a {
+  color: #1976D2;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
+
+.demo-accounts {
+  margin-top: 25px;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+.demo-accounts h3 {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+.demo-accounts button {
+  border: 1px solid #ddd;
+  background: #f9f9f9;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.demo-accounts button:hover {
+  background: #e0e0e0;
+  border-color: #ccc;
+  transform: translateY(-1px);
+}

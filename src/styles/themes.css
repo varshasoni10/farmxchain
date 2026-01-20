@@ -1,0 +1,42 @@
+:root {
+  /* Default Theme */
+  --primary-color: #607D8B;
+  --secondary-color: #B0BEC5;
+  --accent-color: #455A64;
+  --background-color: #ECEFF1;
+}
+
+.dashboard-farmer {
+  --primary-color: #2E7D32;
+  --secondary-color: #81C784;
+  --accent-color: #4CAF50;
+  --background-color: #F1F8E9;
+}
+
+.dashboard-dealer {
+  --primary-color: #1976D2;
+  --secondary-color: #64B5F6;
+  --accent-color: #2196F3;
+  --background-color: #E3F2FD;
+}
+
+.dashboard-retailer {
+  --primary-color: #F57C00;
+  --secondary-color: #FFB74D;
+  --accent-color: #FF9800;
+  --background-color: #FFF8E1;
+}
+
+.dashboard-customer {
+  --primary-color: #7B1FA2;
+  --secondary-color: #BA68C8;
+  --accent-color: #9C27B0;
+  --background-color: #F3E5F5;
+}
+
+.dashboard-admin {
+  --primary-color: #424242;
+  --secondary-color: #9E9E9E;
+  --accent-color: #616161;
+  --background-color: #FAFAFA;
+}
